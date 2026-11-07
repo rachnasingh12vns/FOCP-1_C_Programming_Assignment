@@ -6,7 +6,6 @@ int main() {
     
     int mid = (n + 1) / 2;
     
-    // Top half including middle row
     for (int i = 1; i <= mid; i++) {
         int stars = i;
         int spaces = n - 2 * stars;
@@ -17,7 +16,7 @@ int main() {
         printf("\n");
     }
     
-    // Bottom half
+  
     for (int i = mid - 1; i >= 1; i--) {
         int stars = i;
         int spaces = n - 2 * stars;
